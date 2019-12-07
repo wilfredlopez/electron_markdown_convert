@@ -1,0 +1,23 @@
+{
+  "name": "convertidormarkdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "nodemon --watch . --exec \"electron . --debug\"",
+    "dist": "electron-builder"
+  },
+  "author": "Wilfred Lopez",
+  "license": "MIT",
+  "dependencies": {
+    "dompurify": "^2.0.7",
+    "github-markdown-css": "^3.0.1",
+    "marked": "^0.7.0"
+  },
+  "devDependencies": {
+    "electron": "^7.1.3",
+    "electron-builder": "^21.2.0",
+    "nodemon": "^2.0.1"
+  }
+}
