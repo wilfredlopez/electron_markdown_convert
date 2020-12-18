@@ -11,7 +11,7 @@
   "author": "Wilfred Lopez",
   "license": "MIT",
   "dependencies": {
-    "dompurify": "^2.0.7",
+    "dompurify": "^2.0.17",
     "github-markdown-css": "^3.0.1",
     "marked": "^0.7.0"
   },
